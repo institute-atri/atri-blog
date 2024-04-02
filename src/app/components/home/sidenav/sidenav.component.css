@@ -1,0 +1,45 @@
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav, mat-sidenav-content {
+    padding: 1rem;
+    background-color: var(--atri-bg);
+}
+
+mat-sidenav {
+    color: var(--atri-green);
+    width: 16rem;
+}
+
+.toggle {
+    position: fixed;
+    top: 50%;
+}
+
+mat-sidenav {
+    position: fixed;
+    width: 8rem;
+    z-index: 1000;
+  }
+
+.logo {
+    transform: scale(.5);
+    margin-bottom: 2.4rem;
+}
+
+.side-menu {
+    width: 100%;
+  }
+
+.menu {
+    gap: 4rem;
+}
+
+.icon {
+    gap: .1rem;
+}
+
+.btn {
+    font-size: var(--atri-sidebar-toggle-icon-size);
+}

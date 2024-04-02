@@ -1,0 +1,7 @@
+<div [ngClass]="pagination">
+    <div class="p-0">
+        <button [ngClass]="btn" *ngIf="currentPage !== 1"> <i class="material-icons">navigate_before</i> </button>
+        <button [ngClass]="btn" *ngIf="currentPage !== totalPages"> <i class="material-icons">navigate_next</i> </button>
+    </div>
+    <p [ngClass]="paginationText"><span class="bold">{{currentPage}}</span> <span class="green-secundary"> / {{totalPages}}</span></p>
+</div>

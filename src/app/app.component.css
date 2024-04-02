@@ -1,0 +1,4 @@
+html, body, .container, .content {
+    display: flex;
+    height: 100%;
+}

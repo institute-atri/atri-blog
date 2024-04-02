@@ -1,0 +1,8 @@
+p {
+    margin-bottom: .2rem;
+    width: 87.5%;
+}
+
+p:hover {
+    color: var(--atri-green);
+}

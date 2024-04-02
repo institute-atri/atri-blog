@@ -1,0 +1,22 @@
+.border {
+    display: inline-block;
+    position: relative;
+    padding-top: 6px;
+}
+
+.border::after {
+    content: '';
+    position: absolute;
+    right: 100%;
+    bottom: 0%;
+    width: 4px;
+    height: 75%;
+    background-color: var(--atri-green);
+    transform: translateX(-175%);
+}
+
+.position {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
