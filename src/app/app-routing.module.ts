@@ -5,6 +5,7 @@ import { ContentHeaderComponent } from './components/home/content-header/content
 import { FooterComponent } from './components/home/footer/footer.component';
 import { PagenavComponent } from './components/home/pagenav/pagenav.component';
 import { SidenavComponent } from './components/home/sidenav/sidenav.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
@@ -17,9 +18,15 @@ const routes: Routes = [
       { path: 'sidenav', component: SidenavComponent },
     ]
   },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home' } 
-];
+  {
+    path: 'login',
+    children: [
+      {path: 'login', component: LoginComponent },
+      { path: 'footer', component: FooterComponent },
+    ]
+  }
+
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

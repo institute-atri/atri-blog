@@ -5,7 +5,9 @@
             
             <div [ngClass]="menuIcons">
                 <div class="icon">
-                    <i class="material-icons glass">login</i>
+
+                    <a [routerLink]="['/login']" [routerLinkActive]="'active'" [attr.href]="'/login'"><i class="material-icons glass">login</i></a>
+                    
                 </div>
             
                 <div class="icon">

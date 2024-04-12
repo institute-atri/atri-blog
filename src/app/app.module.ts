@@ -11,6 +11,7 @@ import { ContentHeaderComponent } from './components/home/content-header/content
 import { ContentComponent } from './components/home/content/content.component';
 import { FooterComponent } from './components/home/footer/footer.component';
 import { PagenavComponent } from './components/home/pagenav/pagenav.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PagenavComponent } from './components/home/pagenav/pagenav.component';
     ContentHeaderComponent,
     ContentComponent,
     FooterComponent,
-    PagenavComponent
+    PagenavComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
