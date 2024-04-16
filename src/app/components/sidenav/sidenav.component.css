@@ -28,6 +28,10 @@ mat-sidenav {
     margin-bottom: 2.4rem;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .side-menu {
     width: 100%;
   }
@@ -40,6 +44,14 @@ mat-sidenav {
     gap: .1rem;
 }
 
+.icon a:visited {
+    color: var(--atri-green);
+}
+
 .btn {
     font-size: var(--atri-sidebar-toggle-icon-size);
+}
+
+.btn:hover {
+    cursor: pointer;
 }

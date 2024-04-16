@@ -1,0 +1,38 @@
+<section class="register-content">
+    
+    <div class="wrapper">
+        <form action="">
+            <h1>Cadastre-se</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Telefone" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirmar senha" required>
+            </div>
+            
+            <div class="remember-forgot">
+                <label><input type="checkbox">Mostrar senha</label>
+            </div>
+            
+            <button type="submit" class="login-button">Cadastrar</button>
+
+            <div class="register-link">
+                <p>Já possui uma conta? <a [routerLink]="['/login']" [routerLinkActive]="'active'" [attr.href]="'/login'"> Ir para Login</a></p>
+            </div>
+        </form>
+
+    </div>
+</section>
+
