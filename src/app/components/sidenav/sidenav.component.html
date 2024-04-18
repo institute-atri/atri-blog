@@ -1,15 +1,20 @@
 <mat-sidenav-container>
     <mat-sidenav class="p-0 green" #sidenav mode="side" [(opened)]="opened">
         <div [ngClass]="sidenavContent">
-            <img class="logo" src="../../../assets/imgs/logo.png" alt="ATRI Logo">
             
+           <img class="logo" routerLink="/home" src="../../../assets/imgs/logo.png" alt="ATRI Logo">
+        
             <div [ngClass]="menuIcons">
                 <div class="icon">
-                    <i class="material-icons glass">login</i>
+
+                    <a [routerLink]="['/login']" [routerLinkActive]="'active'" [attr.href]="'/login'"><i class="material-icons glass">login</i></a>
+                    
                 </div>
             
                 <div class="icon">
-                    <i class="material-icons">add_circle</i>
+                    
+                    <a [routerLink]="['/home']" [routerLinkActive]="'active'" [attr.href]="'/home'"> <i class="material-icons">home</i></a>
+                   
                 </div>
                 
                 <div class="icon">
@@ -23,7 +28,7 @@
                 <div class="icon">
                     <i class="material-icons">info</i>
                 </div>
-            
+                
             </div>
         </div>
 

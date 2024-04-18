@@ -1,0 +1,28 @@
+<section class="login-content">
+    
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Email" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha" required>
+            </div>
+            
+            <div class="remember-forgot">
+                <label><input type="checkbox">Manter Login</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            
+            <button type="submit" class="login-button">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a [routerLink]="['/register']" [routerLinkActive]="'active'" [attr.href]="'/register'"> Cadastre-se</a></p>
+            </div>
+        </form>
+
+    </div>
+</section>
+

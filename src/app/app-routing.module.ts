@@ -1,24 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContentComponent } from './components/home/content/content.component';
-import { ContentHeaderComponent } from './components/home/content-header/content-header.component';
-import { FooterComponent } from './components/home/footer/footer.component';
-import { PagenavComponent } from './components/home/pagenav/pagenav.component';
-import { SidenavComponent } from './components/home/sidenav/sidenav.component';
+import { LoginComponent } from './screens/login/login.component';
+import { HomeComponent } from './screens/home/home.component';
+import { RegisterComponent } from './screens/register/register.component';
 
 const routes: Routes = [
-  {
-    path: 'home',
-    children: [
-      { path: '', component: ContentComponent },
-      { path: 'content-header', component: ContentHeaderComponent },
-      { path: 'footer', component: FooterComponent },
-      { path: 'pagenav', component: PagenavComponent },
-      { path: 'sidenav', component: SidenavComponent },
-    ]
-  },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home' } 
+
+  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent }, 
+  
 ];
 
 @NgModule({
