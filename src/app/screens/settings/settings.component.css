@@ -12,12 +12,10 @@ hr {
 }
 
 .settings {
-    top: 10%;
+    top: 5%;
     left: 10%;
     right: 10%;
-    display: flex;
     position: absolute;
-    height: 100%;
     width: 150vh;
 }
 
@@ -103,7 +101,8 @@ hr {
     background-color: var(--atri-green);
     width: fit-content;
     padding: 0.8rem;
-    border: none;
+    border: 2px solid;
+    border-color: var(--atri-green);
     outline: none;
     border-radius: 16px;
 }
@@ -112,8 +111,6 @@ hr {
     cursor: pointer;
     background-color: var(--atri-bg);
     color: var(--atri-green);
-    border: 2px solid;
-    border-color: var(--atri-green);
 }
 
 .delete-account .input-box input {
