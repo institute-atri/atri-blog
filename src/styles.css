@@ -5,6 +5,7 @@
     --atri-bg: #0A0A0D;
     --atri-article-date: #23232e;
     --atri-article-text: #fafafa;
+    --atri-light-black: #383842;
     --atri-side-icon-sizes: 1.6rem;
     --atri-sidebar-toggle-icon-size: 1rem;
     --atri-article-title-font: 'Montserrat', sans-serif;
@@ -90,4 +91,11 @@ h1, h2, h3, p, a {
 
 .sm-text {
     font-size: .8rem;
+}
+
+.round-image {
+    border-radius: 50%; 
+    width: 6rem;
+    height: 6rem; 
+    overflow: hidden; 
 }

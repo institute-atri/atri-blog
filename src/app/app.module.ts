@@ -14,6 +14,7 @@ import { PagenavComponent } from './components/pagenav/pagenav.component';
 import { LoginComponent } from './screens/login/login.component';
 import { RegisterComponent } from './screens/register/register.component';
 import { HomeComponent } from './screens/home/home.component';
+import { SettingsComponent } from './screens/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HomeComponent } from './screens/home/home.component';
     PagenavComponent,
     LoginComponent, 
     RegisterComponent, 
-    HomeComponent,
+    HomeComponent, 
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,7 @@
     <mat-sidenav class="p-0 green" #sidenav mode="side" [(opened)]="opened">
         <div [ngClass]="sidenavContent">
             
-           <img class="logo" routerLink="/home" src="../../../assets/imgs/logo.png" alt="ATRI Logo">
+           <img class="logo" routerLink="/home" src="assets/imgs/logo.png" alt="ATRI Logo">
         
             <div [ngClass]="menuIcons">
                 <div class="icon">
@@ -18,7 +18,9 @@
                 </div>
                 
                 <div class="icon">
-                    <i class="material-icons">settings</i>
+
+                    <a [routerLink]="['/settings']" [routerLinkActive]="'active'" [attr.href]="'/settings'"> <i class="material-icons">settings</i></a>
+
                 </div>
                 
                 <div class="icon">

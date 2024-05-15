@@ -9,7 +9,9 @@ mat-sidenav, mat-sidenav-content {
 
 mat-sidenav {
     color: var(--atri-green);
-    width: 16rem;
+    width: 8rem;
+    position: fixed;
+    z-index: 1000;
 }
 
 .toggle {
@@ -17,11 +19,6 @@ mat-sidenav {
     top: 50%;
 }
 
-mat-sidenav {
-    position: fixed;
-    width: 8rem;
-    z-index: 1000;
-  }
 
 .logo {
     transform: scale(.5);
