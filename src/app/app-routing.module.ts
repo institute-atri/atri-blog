@@ -4,6 +4,7 @@ import { LoginComponent } from './screens/login/login.component';
 import { HomeComponent } from './screens/home/home.component';
 import { RegisterComponent } from './screens/register/register.component';
 import { SettingsComponent } from './screens/settings/settings.component';
+import { SupportComponent } from './screens/support/support.component';
 
 const routes: Routes = [
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent }, 
   { path: 'settings', component: SettingsComponent },
+  { path: 'support' , component: SupportComponent}
   
 ];
 
