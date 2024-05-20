@@ -1,0 +1,23 @@
+.support-content {
+    position: absolute;
+    left: 85vh;
+    top: 15vh;
+    padding: 2rem;
+}
+
+.support-content h1 {
+    color: var(--atri-green);
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper {
+    margin-top: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-rows: auto;
+    gap: 3rem; 
+    background-color: var(--atri-light-black);
+    border: none;
+    border-radius: 2rem;
+}
