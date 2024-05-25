@@ -1,0 +1,104 @@
+.support-content {
+    display: grid; 
+    gap: 3rem;
+    justify-items: center;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+}
+
+a {
+    color: var(--atri-green-dark);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, 
+h2 {
+    color: var(--atri-green);
+    margin-bottom: 1rem;
+    font-size: 36px;
+}
+.wrapper {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    max-width: fit-content;
+    border: 2px solid var(--atri-green);
+    border-radius: 10px;
+    background: linear-gradient(to right, var(--atri-bg) 70%, var(--atri-green) 30%);
+}
+.form-content {
+    padding: 2rem;
+    text-align: left;
+    position: relative;
+    display: grid;
+    gap: 1.2rem;
+    align-content: center;
+    align-items: start;
+}
+ input, 
+ textarea {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--atri-green) ;
+    padding: 0.8rem;
+    margin-top: 0.4rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--atri-article-text);
+    resize: none;
+    overflow: hidden;
+}
+input::placeholder, 
+textarea::placeholder {
+    color: var(--atri-article-text);
+    font-size: 1rem;
+    font-family: var(--atri-article-text-font);
+} 
+ .send-button {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 1.4rem;
+    background-color: var(--atri-green);
+    width: fit-content;
+    padding: 0.6rem;
+    border: 2px solid;
+    border-color: var(--atri-green);
+    outline: none;
+    border-radius: 16px;
+}
+
+.send-button:hover{
+    cursor: pointer;
+    background-color: var(--atri-bg);
+    color: var(--atri-green);
+}
+
+.contact-content {
+    color: var(--atri-article-text);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    display: grid;
+    gap: 1.2rem;
+    align-content: center;
+    align-items: start;
+}
+
+.contact-content h2, 
+.form-content h2 {
+    color: var(--atri-article-text);
+}
+
+.contact-sub {
+    font-weight: bold;
+}
+
+

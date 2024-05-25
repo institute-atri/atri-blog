@@ -15,6 +15,7 @@ import { LoginComponent } from './screens/login/login.component';
 import { RegisterComponent } from './screens/register/register.component';
 import { HomeComponent } from './screens/home/home.component';
 import { SettingsComponent } from './screens/settings/settings.component';
+import { SupportComponent } from './screens/support/support.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { SettingsComponent } from './screens/settings/settings.component';
     LoginComponent, 
     RegisterComponent, 
     HomeComponent, 
-    SettingsComponent,
+    SettingsComponent, SupportComponent,
   ],
   imports: [
     BrowserModule,
